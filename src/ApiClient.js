@@ -1,5 +1,5 @@
 
-const BASE_API_URL = 'https://aliro-flask.herokuapp.com';
+const BASE_API_URL = '';
 export default class ApiClient {
     constructor() {
         this.base_url = BASE_API_URL + '/api';
@@ -58,7 +58,7 @@ export default class ApiClient {
             "email": email,
             "password": password
         }
-        const response = await this.post('https://aliro-flask.herokuapp.com/login', body);
+        const response = await this.post('/login', body);
         if (!response.ok) {
             return response.status === 401 ? 'fail' : 'error';
         }
