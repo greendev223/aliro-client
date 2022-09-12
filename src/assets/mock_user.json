@@ -1,0 +1,124 @@
+{
+    "Education": [
+        {
+            "completed": "Yes",
+            "country": "Slovenia",
+            "duration": 4,
+            "region": "Ljubljana",
+            "type": "High school"
+        },
+        {
+            "completed": "Yes",
+            "country": "Canada",
+            "duration": 4,
+            "region": "Quebec",
+            "type": "Phd"
+        }
+    ],
+    "Language": [
+        {
+            "language": "French",
+            "listening": 8,
+            "reading": 9,
+            "speaking": 8,
+            "writing": 8
+        },
+        {
+            "language": "English",
+            "listening": 9,
+            "reading": 9,
+            "speaking": 9,
+            "writing": 9
+        }
+    ],
+    "PersonalInfo": {
+        "age": 41,
+        "birthday": "Wed, 11 Feb 2022 09:06:00 GMT",
+        "country_of_residence": "Israel",
+        "firstname": "Jake",
+        "gender": "Other",
+        "lastname": "Roberts",
+        "marital_status": "Married",
+        "middlename": "Angondorav",
+        "nationality": "Grozonian",
+        "status_in_country_of_residence": "Citizen",
+        "funds": 60000,
+        "family_members": 3
+    },
+    "WorkExperience": [
+        {
+            "begin": "Wed, 11 Feb 2022 09:06:00 GMT",
+            "country": "Canada",
+            "duty1": "1",
+            "duty2": "2",
+            "duty3": "3",
+            "duty4": "4",
+            "duty5": "5",
+            "end": "Wed, 11 Feb 2022 09:06:00 GMT",
+            "industry": "industry3",
+            "profession": "legislators",
+            "region": "Northwest Territories",
+            "skill_level": "A",
+            "work_permit": "Yes",
+            "years": 2
+        }
+    ],
+    "JobOffer": {
+        "country": "Canada",
+        "region": "Quebec",
+        "profession": "legislators",
+        "skill_level": "A",
+        "years_of_experience": 4
+    },
+    "Investment": [{
+        "country": "Canada",
+        "region": "Quebec",
+        "city": "Ottawa",
+        "amount": 180000
+    }],
+    "RelativeAbroad": [
+        {
+            "country": "Canada",
+            "region": "Quebec",
+            "of_spouse_or_user": "spouse",
+            "relative": "son",
+            "status": "permanent resident",
+            "age": 21
+        }
+    ],
+    "Spouse": {
+        "age": 17
+    },
+    "SpouseEducation": [
+        {
+            "country": "Canada",
+            "region": "Quebec",
+            "duration": "3",
+            "completed": "Yes"
+        }
+    ],
+    "SpouseWorkExperience": [
+        {
+            "country": "Canada",
+            "region": "Quebec",
+            "years": 3,
+            "work_permit": "Yes"
+        }
+    ],
+    "SpouseLanguage": [
+        {
+            "language": "French",
+            "listening": 6,
+            "reading": 6,
+            "speaking": 6,
+            "writing": 8
+        },
+        {
+            "language": "English",
+            "listening": 9,
+            "reading": 9,
+            "speaking": 9,
+            "writing": 9
+        }
+    ]
+}

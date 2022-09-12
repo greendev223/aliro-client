@@ -1,0 +1,153 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: 'center';
+    margin-bottom: 1px;
+    filter: drop-shadow(0px 2px 12px rgba(0, 0, 0, 0.03));
+    z-index: 10000;
+}
+
+.navbar-container {
+    display: flex;
+    width: 100%;
+    min-width: 700px;
+    justify-content: space-between;
+    padding: 0px;
+    /* max-width: 1000px; */
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.navbar-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 20px;
+    margin-bottom: -16px;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+
+.navbar-link {
+    color: #C0C0C0;
+    align-self: center;
+    margin: 0px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar-link:link {
+    text-decoration: none;
+}
+
+.navbar-item:hover {
+    color: #752AFF;
+    border-bottom: 2px solid #752AFF;
+    transition: 0.3s;
+}
+
+.navbar-link:hover {
+    color: #752AFF;
+    transition: 0.3s;
+}
+
+.navbar-right-container{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-signin {
+    margin: 0px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 10px;
+    border: 2px solid #F5F5F5;
+    border-radius: 4px;
+    color: #2C2C2C;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar-signin:link {
+    text-decoration: none;
+}
+
+.navbar-backhome {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    /* Dark-Gray */
+    color: #2C2C2C;
+    cursor: pointer;
+}
+
+.navbar-signin:hover,
+.navbar-backhome:hover {
+    color: #752AFF;
+    /* text-decoration: underline; */
+    transition: 0.3s;
+}
+
+.navbar-logo {
+    margin-left: 50px;
+    height: 75px;
+    align-self: center;
+}
+
+.navbar-icon{
+    font-size: 25px;
+    margin-right:30px;
+}
+
+.navbar-user{
+    margin-right: 50px;
+}
+
+@media screen and (max-width:768px) {
+    .navbar-container{
+        min-width: 300px;
+    }
+    .navbar-links{
+        display: none;
+    }
+    .navbar-logo{
+        margin-left: 10px;
+    }
+    .navbar-icon{
+        margin-right:10px;
+    }
+    .navbar-user{
+        margin-right: 10px;
+    }
+}

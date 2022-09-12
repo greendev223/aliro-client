@@ -1,0 +1,7 @@
+[
+    { "code": "", "label": "" },
+    { "code": "0", "label": "Employer does not have a permit" },
+    { "code": "1", "label": "Employer has a permit to hire foreign workers (LMIA - Canada)" },
+    { "code": "2", "label": "Employer is exempt from the permit" },
+    { "code": "3", "label": "Don't know" }
+]

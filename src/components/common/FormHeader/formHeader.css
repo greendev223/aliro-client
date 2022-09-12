@@ -1,0 +1,31 @@
+/* .formHeaderTop {
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 4px;
+}
+
+.formHeaderBottom {
+  background-color: var(--light-grey);
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+
+.rowAlign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.container.form-header {
+    background-color: var(--secondary-color);
+    justify-content: space-between;
+}
+
+.screen-tracker {
+    font-size: 30;
+    margin: 0px 0px 0px 60px;
+    align-self: center;
+}

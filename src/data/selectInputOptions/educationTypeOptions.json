@@ -1,0 +1,12 @@
+[
+    {"code":-1, "label":""},
+    {"code":0, "label":"High school"},
+    {"code":1, "label":"Professional or vocational"},
+    {"code":2, "label":"College or non-university"},
+    {"code":3, "label":"Apprenticeship"},
+    {"code":4, "label":"University 2-3 semester program"},
+    {"code":5, "label":"Bachelors"},
+    {"code":6, "label":"University 4 - 5 semester program"},
+    {"code":7, "label":"Masters"},
+    {"code":8, "label":"Phd"}
+]

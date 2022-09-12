@@ -1,0 +1,55 @@
+.input-field {
+  position: relative;
+  /* height: 48px; */
+  margin-top: 7px;
+  margin-bottom: 7px;
+  justify-content: center;
+}
+
+.input-field input {
+  height: 24px;
+  width: 95%;
+  /* font-weight: bold; */
+  font-size: 13px;
+  padding-left: 7px;
+  border-radius: 2px;
+  border: #8f8f9d solid 1px;
+}
+
+.input-validation-error {
+    position: absolute;
+    bottom: -15px;
+    color: red;
+    font-size: 11px; 
+}
+
+.input-label {
+  position: absolute;
+  font-size: 11px;
+  bottom: 8px;
+  left: 7px;
+  pointer-events: none;
+  transition: all 0.2s;
+}
+
+.input-field input:focus + .input-label,
+.input-field input:not(:placeholder-shown) + .input-label {
+  transform: translateY(-22px);
+  transition: all 0.2s;
+  font-size: 11px;
+  left: 0px;
+}
+
+.input-field input:hover {
+  box-shadow: 0 0 8px 2px #999a;
+}
+
+.input-field input:focus {
+  box-shadow: none;
+  border: black solid 1px;
+  outline: none;
+}
+
+.input-field input:not(:focus):invalid {
+  border: red solid 1px;
+}

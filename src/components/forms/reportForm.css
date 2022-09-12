@@ -1,0 +1,249 @@
+.report-container {    
+    display: flex;
+    padding: 0 80px;
+}
+
+
+.card {
+    background: #FFFFFF;
+    /* SHadow */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.questionaire span {
+    margin-left: 20px;
+}
+
+.sidebar-report {
+    width: 100%;
+    max-width: 350px;
+}
+
+.sidebar-body {
+    margin-top: 20px;
+}
+
+.sidebar-collection{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-collection-header{
+    display: flex;
+    gap:15px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    /* Dark-Gray */
+
+    color: #282828;
+}
+
+.sidebar-collection-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;    
+    margin: 20px 0px;
+}
+
+.sidebar-collection-item{
+    background: #FCFAFF;
+    border-radius: 3px;
+    padding:12px 16px 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-collection-item.active{
+    background: #F3F1FF;
+    /* Blue */
+
+    border-left: 2px solid #752AFF;
+    border-radius: 3px;
+}
+
+.sidebar-collection-item .collection-item-header{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    /* Gray */
+
+    color: #686868;
+}
+
+.sidebar-collection-item .collection-item-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar-collection-item .collection-item-body .collection-item-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: capitalize;
+
+    /* Dark-Gray */
+
+    color: #282828;
+}
+
+.sidebar-collection-item .collection-item-body .collection-item-badge{
+    border-radius: 4px;
+    width: 45.12px;
+    height: 25px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    /* White */
+
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection-item-badge.green{
+    background: #00CB14;
+}
+.collection-item-badge.yellow{
+    background: #F3A712;
+}
+
+.collection-item-badge.red{
+    background: #FF2727;
+}
+
+.report-body {
+    margin-left: 20px;
+    width: 100%;
+}
+
+.report-body-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    text-transform: capitalize;    
+
+    color: #282828;
+
+    margin-bottom: 40px;
+}
+
+.report-body-items{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.report-body-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.report-body-item .item-header{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #282828;
+    
+}
+
+.report-body-item .item-header .badge{
+    display: flex;
+    align-items: center;
+    height: 26px;
+    background: #00CB14;
+    border-radius: 3px;
+    padding: 2px 14px 2px 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.report-body-item .item-body{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: capitalize;    
+    color: #282828;
+}
+
+
+.report-body-footer{
+    display: flex;    
+    align-items: center;
+    background: #FCFAFF;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+.report-body-footer .footer-icon{
+    padding: 25px;
+}
+
+.report-body-footer .footer-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.report-body-footer .footer-body .title{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #282828;
+}
+
+.report-body-footer .footer-body .description{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #282828;
+}

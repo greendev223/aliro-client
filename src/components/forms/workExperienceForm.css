@@ -1,0 +1,9 @@
+.form-card-content-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.occupation-card {
+    display: flex;
+    flex-direction: column;
+}

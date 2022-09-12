@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    width: '100%';
+    background-color: #FCFAFF;
+    --primary-color: rgb(68, 81, 191, 1);
+    --secondary-color: rgb(247, 247, 247);
+    --tertiary-color: rgba(241, 155, 2, 1);
+    --quarternary-color: rgba(251, 74, 142, 1);
+}
+
+
+/* COMMON */
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    /* align-items: 'center'; */
+    padding: 15px;
+}
+
+
+/* LINKS */
+
+.a-link {
+    color: blue;
+    font-size: 12px;
+    margin: 4px 0px 10px 0px;
+    transition: 0.3s;
+}
+
+.a-link:hover {
+    color: var(--quarternary-color);
+    transition: 0.3s;
+}
+
+
+/* BUTTONS */
+
+.btn-grad {
+    border: 1px solid var(--tertiary-color);
+    align-self: center;
+    height: 29px;
+    padding-left: 28px;
+    padding-right: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+    transition: 0.4s;
+}
+
+.btn-grad:hover {
+    background-image: linear-gradient(to right, var(--quarternary-color), var(--tertiary-color));
+    color: #fff;
+    text-decoration: none;
+    -moz-transform: scale(1.08);
+    transition: 0.4s;
+}
+
+.btn-grad:active {
+    transform: translateY(2px);
+}
+
+.button {
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center;
+    border-radius: 8px;
+    height: 38px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 0px solid;
+    background-color: rgba(241, 155, 2, 1);
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-image: linear-gradient(to right, var(--quarternary-color), var(--tertiary-color));
+    color: #fff;
+    text-decoration: none;
+    transform: scale(1.04, 1.04);
+    /* transform: scaleY(1.2); */
+    transition: 0.3s;
+}
+
+.button:active {
+    transform: translateY(0px);
+}
+
+.login-page {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 250;
+}

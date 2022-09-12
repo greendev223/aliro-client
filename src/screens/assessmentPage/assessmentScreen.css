@@ -1,0 +1,10 @@
+/* ASSESSMENT SCREEN */
+.assessment-screen {
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 280px;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}

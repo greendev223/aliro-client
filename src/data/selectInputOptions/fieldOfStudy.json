@@ -1,0 +1,9 @@
+[
+    {"code":"", "label":""},
+    {"code":"engineering", "label":"Engineering"},
+    {"code":"arts", "label":"Arts"},
+    {"code":"humanities", "label":"Humanities"},
+    {"code":"law", "label":"Law"},
+    {"code":"medical", "label":"Medical school"},
+    {"code":"econ", "label":"Nursing"}
+]

@@ -1,0 +1,100 @@
+/* ASSESSMENT PAGE */
+.results-card {
+    /* A4 paper at 96 PPI/DPI: 794 X 1123 */
+    /* height: 1123 - 2 x padding(90px)  */
+    min-height: 1043px;
+    /* width: 794 - 2 x padding(40px)  */
+    width: 704px;
+    margin-bottom: 30px;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 90px 40px 90px;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
+}
+
+.results-report {
+    width: 704px;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: var(--secondary-color); */
+}
+
+.result-score {
+    margin: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    background-color: var(--primary-color);
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+
+.results-title {
+    font-family: 'Ubuntu';
+}
+
+.explanation-heading {
+    font-family: 'Ubuntu';
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.results-p {
+    margin: 7px 0px 0px 0px;
+    font-size: 13px;
+}
+
+.results-p-primary {
+    margin: 7px 0px 0px 0px;
+    color: var(--primary-color);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.category-heading {
+    margin: 30px 0px 0px 0px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.category-score {
+    margin: 25px 0px 0px 0px;
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 3px 10px 3px 10px;
+}
+
+.assessment-table {
+    margin-top: 12px;
+}
+
+.assessment-table-heading {
+    font-family: 'Ubuntu';
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.assessment-table-headrow {
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    text-align: left;
+}
+
+.assessment-table-row {
+    font-family: 'Ubuntu';
+    font-size: 14px;
+}

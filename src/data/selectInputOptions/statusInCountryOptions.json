@@ -1,0 +1,7 @@
+[
+    {"code":"0", "label":""},
+    {"code":"1", "label":"Citizen"},
+    {"code":"2", "label":"Permanent resident"},
+    {"code":"3", "label":"Temporary resident"},
+    {"code":"4", "label":"Refugee"}
+]

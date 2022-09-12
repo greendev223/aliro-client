@@ -1,0 +1,72 @@
+/* listed items */
+.listed-items {
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+.entries-box {
+    padding: 5px;
+    height: 22px;
+    width: 400px;
+    /* margin-left: 40px; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    transition: 0.3s;
+}
+
+.modify-button-field {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 88px;
+}
+.entries-box-title {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.entries-box-title:active {
+    transform: translateY(2px);
+    transition: 0.3s;
+}
+
+.modify-button {
+    border: none;
+    border: 1px solid var(--tertiary-color);
+}
+
+.entries-box:hover {
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    transition: 0.3s;
+}
+
+.modify-label {
+    font-size: 12px;
+    color: rgb(61, 61, 61);
+    visibility: hidden;
+    margin-left: 4px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background-color: #0000;
+}
+
+.entries-box:hover .modify-label {
+    visibility: visible;
+}
+
+.modify-list {
+    display: flex;
+}
+
+.modify-label-text {
+    cursor: pointer;
+    transition: 0.3s;
+    width: 20px;
+}
+
+.modify-label-text:hover {
+    font-weight: bold;
+    transition: 0.3s;
+}

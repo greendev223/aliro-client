@@ -1,0 +1,151 @@
+{
+    "Australia": [
+        {
+            "program_name": "New South Wales Mock Program",
+            "scores": {
+                "1": {
+                    "label": "Education",
+                    "max_score": 0,
+                    "score": 0,
+                    "explanation": "In CSS, we can define custom properties (often known as CSS variables), that offers us great flexibility to define a set of rules and avoid rewriting them again and again. We can also use custom properties to define colors. In CSS, we can define custom properties (often known as CSS variables), that offers us great flexibility to define a set of rules and avoid rewriting them again and again. We can also use custom properties to define colors.",
+                    "dq": true
+                },
+                "2": {
+                    "label": "Job offer",
+                    "max_score": 0,
+                    "score": 0,
+                    "explanation": "In CSS, we can define custom properties (often known as CSS variables), that offers us great flexibility to define a set of rules and avoid rewriting them again and again. We can also use custom properties to define colors. In CSS, we can define custom properties (often known as CSS variables), that offers us great flexibility to define a set of rules and avoid rewriting them again and again.",
+                    "dq": true
+                },
+                "3": {
+                    "label": "Work Experience",
+                    "max_score": 0,
+                    "score": 0,
+                    "explanation": "In CSS, we can define custom properties (often known as CSS variables), that offers us great flexibility to define a set of rules and avoid rewriting them again and again. We can also use custom properties to define colors. In CSS, we can define custom properties (often known as CSS variables), that offers us great flexibility to define a set of rules and avoid rewriting them again and again. We can also use custom properties to define colors.",
+                    "dq": false
+                }
+            },
+            "summary": {
+                "adjusted_score": 50,
+                "passed": false,
+                "required_score": 0,
+                "total_max_score": 0,
+                "total_score": 0
+            }
+        },
+        {
+            "program_name": "Australia Mock Program 2",
+            "scores": {
+                "1": {
+                    "label": "Education",
+                    "max_score": 0,
+                    "score": 0
+                },
+                "3": {
+                    "label": "Work Experience",
+                    "max_score": 0,
+                    "score": 0
+                }
+            },
+            "summary": {
+                "adjusted_score": 0,
+                "passed": true,
+                "required_score": 0,
+                "total_max_score": 0,
+                "total_score": 0
+            }
+        }
+    ],
+    "Canada": [
+        {
+            "program_name": "Express Entry",
+            "scores": {
+                "1": {
+                    "label": "Work Experience",
+                    "max_score": 15,
+                    "score": 11
+                },
+                "10": {
+                    "label": "Adaptability: Partner work experience",
+                    "max_score": 5,
+                    "score": 5
+                },
+                "11": {
+                    "label": "Adaptability: Relatives abroad",
+                    "max_score": 5,
+                    "score": 5
+                },
+                "2": {
+                    "label": "Language profficiency",
+                    "max_score": 24,
+                    "score": 24
+                },
+                "3": {
+                    "label": "Education",
+                    "max_score": 25,
+                    "score": 25
+                },
+                "4": {
+                    "label": "Age",
+                    "max_score": 12,
+                    "score": 6
+                },
+                "6": {
+                    "label": "Adaptability: Spouse langauge profficiency",
+                    "max_score": 4,
+                    "score": 4
+                },
+                "7": {
+                    "label": "Adaptability: Education",
+                    "max_score": 5,
+                    "score": 5
+                },
+                "8": {
+                    "label": "Adaptability: Partner education",
+                    "max_score": 5,
+                    "score": 5
+                },
+                "9": {
+                    "label": "Adaptability: Work Experience",
+                    "max_score": 10,
+                    "score": 10
+                }
+            },
+            "summary": {
+                "adjusted_score": 76,
+                "passed": true,
+                "required_score": 67,
+                "total_max_score": 86,
+                "total_score": 100
+            }
+        },
+        {
+            "program_name": "Northwest Territories  PNP-Employer Driven Stream-Entry Level/Semi-Skilled Occupations",
+            "scores": {
+                "1": {
+                    "label": "Education",
+                    "max_score": 0,
+                    "score": 0
+                },
+                "2": {
+                    "label": "Job offer",
+                    "max_score": 0,
+                    "score": 0,
+                    "dq": true
+                },
+                "3": {
+                    "label": "Work Experience",
+                    "max_score": 0,
+                    "score": 0
+                }
+            },
+            "summary": {
+                "adjusted_score": 0,
+                "passed": false,
+                "required_score": 0,
+                "total_max_score": 0,
+                "total_score": 0
+            }
+        }
+    ]
+}

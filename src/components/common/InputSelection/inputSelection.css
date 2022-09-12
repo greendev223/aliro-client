@@ -1,0 +1,44 @@
+.selection-field {
+  position: relative;
+  /* height: 48px; */
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.selection-field select {
+  height: 28px;
+  width: 100%;
+  /* font-weight: bold; */
+  font-size: 13px;
+  padding-left: 7px;
+  border-radius: 2px;
+  margin: 0px;
+  /* margin-top: 15px; */
+  border: #8f8f9d solid 1px;
+  background-color: white;
+}
+
+.selection-label {
+  position: absolute;
+  font-size: 11px;
+  top: -15px;
+  left: 0px;
+  pointer-events: none;
+}
+
+.selection-field select:hover {
+  box-shadow: 0 0 8px 2px #999a;
+}
+
+.selection-field select:focus {
+  box-shadow: none;
+  border: black solid 1px;
+  outline: none;
+}
+
+.select-validation-error {
+    position: absolute;
+    bottom: -25px;
+    color: red;
+    font-size: 11px; 
+}

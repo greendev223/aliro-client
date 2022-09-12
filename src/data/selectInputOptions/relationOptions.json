@@ -1,0 +1,14 @@
+[
+    { "code": "", "label": "" },
+    { "code": "0", "label": "mother" },
+    { "code": "1", "label": "father" },
+    { "code": "2", "label": "sister" },
+    { "code": "3", "label": "brother" },
+    { "code": "4", "label": "son" },
+    { "code": "5", "label": "daughter" },
+    { "code": "6", "label": "aunt" },
+    { "code": "7", "label": "uncle" },
+    { "code": "8", "label": "grandmother" },
+    { "code": "9", "label": "grandfather" },
+    { "code": "10", "label": "cousin" }
+]

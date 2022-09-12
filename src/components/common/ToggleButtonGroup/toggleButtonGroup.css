@@ -1,0 +1,66 @@
+/* TOGGLE BUTTON GROUP */
+
+.toggle-button-group-container {
+    display: flex;
+    align-items: center;
+    margin-top: -14px;
+    height: 64px;
+    /* margin-bottom: 6px; */
+}
+
+.toggle-button-label {
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+    text-transform: capitalize;
+    /* Dark-Gray */
+    color: #2C2C2C
+}
+
+.toggle-validation-error {
+    margin: 0px 0px -1px 7px;
+    color: red;
+    font-size: 11px;
+}
+
+.toggle-button-group {
+    display: flex;
+    height: 33px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: double;
+    align-items: center;
+    /* padding: 2px 0; */
+}
+
+.toggle-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px 7px;
+    gap: 10px;
+    background: #FFFFFF;
+    /* Input-border */
+    border: 2px solid #E7E7E7;
+    border-radius: 3px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+    /* Gray */
+    color: #686868;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-right: 20px;
+}
+
+.toggle-button:hover {
+    color: black;
+    background-color: white;
+    transition: 0.2s;
+}
